@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="My work blog">
+    <meta name="author" content="Daniel">
+    <link rel="icon" href="assets/logo.png">
+
+    <title>My work blog</title>
+
+    <link href="libraries/bootstrap.min.css" rel="stylesheet">
+    <link href="css/blog.css" rel="stylesheet">
+    <script src="libraries/jquery.js"></script>
+
+    <script>
+        $(function () {
+            $('#header').load('html_base/header.html')
+        });
+    </script>
+    <script>
+        $(function () {
+            $('#sidebar').load('html_base/sidebar.html')
+        });
+    </script>
+    <script>
+        $(function () {
+            $('#footer').load('html_base/footer.html')
+        });
+    </script>
+</head>
+
+<body>
+    <div class="container">
+
+        <div id="header"></div>
+
+        <main role="main" class="container">
+            <div class="row">
+                <div class="col-md-8 blog-main">
+
+                    <div class="blog-post">
+                        <h2 class="blog-post-title">Week XII (April 11th - 15th)</h2>
+                        <p class="blog-post-meta">January 25, 2022 by <a href="#">Daniel Romero</a></p>
+
+                        <p>At the beginning of the week I met with David and Jesus to start the new project, the refactoring of Unibotics.
+                        This is similar to the previous refactoring, but this time we should use the robotics academy html and expand it with Unibotics implementations.
+                        During the week I started working on the first implementation of the code and thinking the best way to do this.</p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4 blog-sidebar" id="sidebar"></div>
+
+            </div>
+
+        </main>
+
+        <div id="footer"></div>
+    </div>
+
+    <script src="libraries/bootstrap.min.js"></script>
+</body>
+</html>
