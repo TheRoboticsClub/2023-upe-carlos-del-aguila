@@ -1,0 +1,2 @@
+.mp4 filter=lfs diff=lfs merge=lfs -text
+C:/users/Xolca/Documents/GitHub/2023-upe-carlos-del-aguila/docs/Despliegue_D1B.mp4 filter=lfs diff=lfs merge=lfs -text
